@@ -13,8 +13,17 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="175dp"
-        android:layout_marginBottom="182dp" />
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="92dp"
+        android:visibility="gone"
+        android:layout_marginBottom="100dp" />
+
+
+    <include
+        layout="@layout/double_country_custom_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
